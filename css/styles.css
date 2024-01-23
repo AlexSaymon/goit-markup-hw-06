@@ -520,7 +520,6 @@ button {
 .footer-wrap {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: baseline;
 }
 

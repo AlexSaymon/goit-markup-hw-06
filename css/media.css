@@ -3,6 +3,8 @@
     max-width: 768px;
   }
 
+  /* ----------------------HEADER----------------------- */
+
   /* ------------------------HERO--------------------- */
 
   .main-section {
@@ -81,18 +83,20 @@
   .footer-wrap {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
     column-gap: 24px;
+    row-gap: 72px;
   }
 
   .footer-right form {
     flex-direction: row;
   }
 
-  .footer-right {
+  .footer-middle {
+    margin: 0;
   }
 
-  .footer-middle {
+  .footer-left {
+    margin-bottom: 0;
   }
 
   .footer-social,
@@ -102,6 +106,10 @@
 
   .footer-p {
     width: 266px;
+  }
+
+  .footer-email {
+    margin-right: ;
   }
 }
 
@@ -209,10 +217,11 @@
 
   .footer-p {
     max-width: 264px;
+    width: 100%;
   }
 
   .footer-middle {
-    margin-bottom: 0;
+    margin-right: 80px;
   }
 
   .footer-left {
@@ -228,5 +237,6 @@
   .footer-wrap {
     flex-wrap: nowrap;
     display: flex;
+    gap: 0;
   }
 }
