@@ -5,6 +5,30 @@
 
   /* ----------------------HEADER----------------------- */
 
+  .nav-mailphone-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-mail-phone {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  .nav-link-mailphone {
+    padding: 16px 0 0 0;
+  }
+
+  .nav-link-mailphone-tablet {
+    padding: 0 0 16px 0;
+  }
+
+  .logo {
+    margin-right: 120px;
+  }
+
   /* ------------------------HERO--------------------- */
 
   .main-section {
@@ -107,10 +131,6 @@
   .footer-p {
     width: 266px;
   }
-
-  .footer-email {
-    margin-right: ;
-  }
 }
 
 /* ---------------------------DESKTOP-------------------- */
@@ -120,6 +140,33 @@
     padding-left: 15px;
     padding-right: 15px;
     max-width: 1158px;
+    width: 100%;
+  }
+
+  /* ----------------------------HEADER------------------------------ */
+
+  .nav-mailphone-list {
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .nav-mail-phone {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .nav-link-mailphone {
+    padding: 24px 0 24px 0;
+  }
+
+  .nav-link-mailphone-tablet {
+    padding: 0;
+  }
+
+  .logo {
+    margin-right: 76px;
   }
 
   /* ------------------------HERO--------------------- */
@@ -136,6 +183,7 @@
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
+    width: 100%;
     margin: 0 auto 48px;
     padding: 0;
   }
@@ -216,8 +264,7 @@
   }
 
   .footer-p {
-    max-width: 264px;
-    width: 100%;
+    width: 264px;
   }
 
   .footer-middle {
