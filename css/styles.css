@@ -668,6 +668,7 @@ button {
   width: 100%;
   /* min-height: 584px; */
   height: 623px;
+
   border-radius: 4px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12),

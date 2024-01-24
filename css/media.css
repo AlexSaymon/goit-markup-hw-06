@@ -264,7 +264,8 @@
   }
 
   .footer-p {
-    width: 264px;
+    min-width: 264px;
+    width: 100%;
   }
 
   .footer-middle {
