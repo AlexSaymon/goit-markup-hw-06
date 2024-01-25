@@ -107,8 +107,6 @@
   .footer-wrap {
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 72px;
   }
 
   .footer-right form {
@@ -120,7 +118,8 @@
   }
 
   .footer-left {
-    margin-bottom: 0;
+    margin-bottom: 72px;
+    margin-right: 24px;
   }
 
   .footer-social,
@@ -129,7 +128,20 @@
   }
 
   .footer-p {
-    width: 266px;
+    max-width: 266px;
+  }
+
+  /* ----------------------MODAL---------------------- */
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 25px 24px 25px;
+    overflow: none;
+  }
+
+  .modal-text {
+    max-width: 360px;
   }
 }
 
@@ -265,7 +277,6 @@
 
   .footer-p {
     min-width: 264px;
-    width: 100%;
   }
 
   .footer-middle {
@@ -279,7 +290,7 @@
 
   .footer-email {
     opacity: 1;
-    width: 264px;
+    min-width: 264px;
   }
 
   .footer-wrap {
