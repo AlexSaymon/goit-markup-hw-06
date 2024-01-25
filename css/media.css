@@ -29,6 +29,20 @@
     margin-right: 120px;
   }
 
+  .mob-menu,
+  .backdrop {
+    display: none;
+  }
+
+  .nav-header,
+  .nav-mail-phone {
+    display: flex;
+  }
+
+  .mob-menu-open-btn {
+    display: none;
+  }
+
   /* ------------------------HERO--------------------- */
 
   .main-section {
