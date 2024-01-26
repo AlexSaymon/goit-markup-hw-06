@@ -182,6 +182,11 @@ button {
   width: 100%;
   height: 100vh;
   padding: 24px 16px 40px 24px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }
 
 .mob-menu-close-btn {
@@ -203,7 +208,6 @@ button {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 168px;
 }
 .mob-nav-item {
 }
@@ -284,6 +288,13 @@ button {
   max-width: 320px;
   width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .main-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/bg-hero-mob-2x.jpg);
+  }
 }
 
 .header-main {
@@ -464,6 +475,7 @@ button {
 .team-image,
 .portfolio-image {
   display: block;
+  width: 100%;
 }
 
 .image-headerthree {
@@ -759,6 +771,7 @@ button {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: none;
+  z-index: 999;
 }
 
 .is-open {
